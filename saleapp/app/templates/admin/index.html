@@ -2,10 +2,10 @@
 
 {% block body %}
 {% if current_user.is_authenticated %}
-<h1 class="text-success">Chao mung den voi quan tri eCommerce</h1>
-<h2 class="text-secondary"> Chao {{current_user.username}} !</h2>
+<h1 class="text-success">CHÀO MỪNG ĐẾN VỚI QUẢN TRỊ ECOMMERCE</h1>
+<h2 class="text-secondary"> Chào {{current_user.username}} !</h2>
 {% else %}
-<h1 class="text-center text-success">Chao mung den voi quan tri eCommerce</h1>
+<h1 class="text-center text-success">CHÀO MỪNG ĐẾN VỚI QUẢN TRỊ ECOMMERCE</h1>
 <form method="post" action="/login-admin">
 
     <div class="form-floating mb-3 mt-3">
